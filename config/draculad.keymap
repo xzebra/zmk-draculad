@@ -20,8 +20,8 @@
 // Lsft/Z|  X  |  C  |  V  |  B  |           |  N  |  M  |  ,  |    .    |Rsft//|
 //      | LCTL | Bspc/LALT | SPC | CAPS| MUTE| Del/Num | Ent | Sym |
            bindings = <
-            &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P
-            &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI
+            &bt BT_CLR &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P
+            &bt BT_SEL 0 &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI
             &mt LSHFT Z &kp X &kp C &kp V &kp B &kp C_MUTE &kp CAPS &kp N &kp M &kp COMMA &kp DOT &mt RSHFT FSLH
             &kp LCTRL &mt LALT BSPC &kp SPACE &lt 1 DEL &kp RET &mo 2
             >;
