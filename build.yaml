@@ -3,3 +3,5 @@ include:
     shield: draculad_left
   - board: nice_nano_v2
     shield: draculad_right
+  - board: nice_nano_v2
+    shield: settings_reset
