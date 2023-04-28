@@ -1,0 +1,23 @@
+if SHIELD_DRACULAD_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "DracuLad Left"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_DRACULAD_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "DracuLad Right"
+
+endif
+
+if SHIELD_DRACULAD_LEFT || SHIELD_DRACULAD_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
