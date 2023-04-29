@@ -35,7 +35,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp LG(LS(TAB)) LG(TAB)>,
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>,
                 <&inc_dec_kp UP_ARROW DOWN>;
         };
 
