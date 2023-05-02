@@ -55,8 +55,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_PREV C_NEXT>,
-                <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
+                <&inc_dec_kp LG(LS(GRAVE)) LG(LS(GRAVE))>,
+                <&inc_dec_kp LG(LEFT_BRACE) LG(RIGHT_BRACE)>;
         };
 
         numbers {
