@@ -16,10 +16,12 @@ manifest:
         url-base: https://github.com/zmkfirmware
       - name: infused-kim
         url-base: https://github.com/infused-kim
+      - name: tklzg
+        url-base: https://github.com/tklzg
     projects:
       - name: zmk
-        remote: infused-kim
-        revision: my-changes/split-encoder
+        remote: tklzg
+        revision: encoder
         import: app/west.yml
     self:
       path: config
