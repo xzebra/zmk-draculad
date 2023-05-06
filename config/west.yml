@@ -21,7 +21,7 @@ manifest:
     projects:
       - name: zmk
         remote: xzebra
-        revision: 990aee4
+        revision: split-encoders
         import: app/west.yml
     self:
       path: config
