@@ -10,8 +10,8 @@ manifest:
         url-base: https://github.com/xzebra
     projects:
       - name: zmk
-        remote: Katona
-        revision: split_battery_service
+        remote: xzebra
+        revision: both-split-batteries-and-encoders
         import: app/west.yml
     self:
       path: config
