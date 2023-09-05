@@ -6,8 +6,8 @@ manifest:
         url-base: https://github.com/xzebra
     projects:
       - name: zmk
-        remote: xzebra
-        revision: split-encoders    
+        remote: zmkfirmware
+        revision: main   
         import: app/west.yml
     self:
       path: config
